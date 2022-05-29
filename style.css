@@ -1,0 +1,107 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+header
+{
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background.jpg);
+height: 200vh;
+background-size: cover;
+background-position: center;
+}
+
+.nav-bar
+{
+background: rgb(0,0,0,0.5);
+height: 80px;
+}
+
+.logo{
+margin: 10px 50px;
+height: 60px;
+}
+
+.menu{
+float: right;
+list-style: none;
+margin: 20px;
+} 
+
+.menu li{
+display: inline-block;
+margin: 10px 5px;     
+}
+
+.menu li a{
+text-decoration: none;
+color: #fff;
+padding: 5px 10px;
+font-family: sans-serif;
+letter-spacing: 2px;
+border: 1px solid #fff;
+}
+
+.menu li a:hover{
+background: #fff;
+transition: .4s;
+color: #000;
+}
+
+.welcome{
+position: relative;
+text-align: center;
+font-family: sans-serif;
+color: #fff;
+top: 160px;
+}
+
+.welcome h1{
+font-size: 42px;
+margin: 25px;
+}
+
+.paragraph{
+	position: relative;
+text-align: center;
+font-family: sans-serif;
+color: #fff;
+top: 160px;
+}
+.paragraph h4{
+font-size: 20px;
+margin: 20px;	
+}
+
+.paragraph img{
+	height: 500px;
+	width: 500px;
+	opacity: 80%;
+	border: 1px solid #fff;
+}
+
+.btn
+{
+border: 1px solid #fff;
+padding: 10px 30px;
+color: white;
+text-decoration: none;
+margin :5px;
+font-size: 18px;
+text-transform: uppercase;
+}
+.btn-one
+{
+background-color: darkorange;
+font-family: "roboto", sans-serif;
+}
+
+.btn-two
+{
+font-family: "roboto", sans-serif; 
+}
+.btn-two:hover
+{
+background-color: darkorange;
+transition: all 0.5s ease-in;
+}
